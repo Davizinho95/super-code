@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Steven Universo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/Steven_Universe_logo_PNG1.png" alt="Logo Steven Universo">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="ciclope" data-name="Steven Universo" data-description="É um herói metade humano metade Gem que está aprendendo a salvar o mundo com os poderes mágicos que vêm do seu umbigo.">
+            <img
+              src="./src/imagens/card-ciclope.jpg"
+              alt="Personagem Ciclope"
+            />
+          </li>
+          <li class="personagem" id="jean-grey" data-name="Pérola" data-description="Pérola atua como uma mãe para Steven. Ela o ensina sobre os fundamentos que um Gem deve saber e sempre o protege de confusões.">
+            <img
+              src="./src/imagens/card-jean-grey.jpg"
+              alt="Personagem Jean Grey"
+            />
+          </li>
+
+          <li class="personagem" id="lince-negra" data-name="Lapis Lazuli" data-description="Lapis Lazuli era uma Gem que ficou presa no espelho após ser confundida com uma rebelde na Rebelião">
+            <img
+              src="./src/imagens/card-lince-negra.jpg"
+              alt="Personagem Lince Negra"
+            />
+          </li>
+
+          <li class="personagem" id="tempestade" data-name="Peridot" data-description="Peridot (mas especificamente Peridot Faceta-2F5L Corte-5XG), é uma Gem do tipo peridot da Era-2 que fez sua primeira aparição em Transportadores">
+            <img
+              src="./src/imagens/card-tempestade.jpg"
+              alt="Personagem Tempestade"
+            />
+          </li>
+
+          <li class="personagem" id="vampira" data-name="Rubi" data-description="Rubi é uma rubi que teve sua primeira aparição física em Libertador. Rubi é uma Gem forte e corajosa, ela faz de tudo para proteger sua esposa, Safira, e juntas elas podem se transformar em Garnet">
+            <img
+              src="./src/imagens/card-vampira.jpg"
+              alt="Personagem Vampira"
+            />
+          </li>
+
+          <li class="personagem" id="wolverine" data-name="Safira" data-description="Safira tem um lado amoroso, principalmente com sua parceira romântica Rubi. Quando estão separadas, Safira fica muito distraída, pois passa o tempo todo pensando em voltar a estar fundida com Rubi.">
+            <img
+              src="./src/imagens/card-wolverine.jpg"
+              alt="Personagem Wolverine"
+            />
+          </li>
+
+          <li class="personagem" id="noturno" data-name="Ametista" data-description="Ametista serve como uma irmã mais velha para Steven, eventualmente passeando consigo e o acompanhando em suas brincadeiras.">
+            <img
+              src="./src/imagens/card-noturno.jpg"
+              alt="Personagem Noturno"
+            />
+          </li>
+
+          <li class="personagem" id="magneto" data-name="Garnet" data-description="Garnet é uma das protagonistas de Steven Universo. Ela é a fusão de Rubi e Safira e a líder das Crystal Gems.">
+            <img
+              src="./src/imagens/card-magneto.jpg"
+              alt="Personagem Magneto"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-ciclope.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Steven Universo</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            É um herói metade humano metade Gem que está aprendendo a salvar o mundo com os poderes mágicos que vêm do seu umbigo
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
